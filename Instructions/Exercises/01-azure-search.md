@@ -66,9 +66,9 @@ Se non è già disponibile nella sottoscrizione, sarà necessario effettuare il 
 
 ## Prepararsi allo sviluppo di un'app in Visual Studio Code
 
-Si svilupperà l'app ricerca usando Visual Studio Code. I file di codice per l'app sono stati forniti in un repository GitHub.
+Si svilupperà l'app di ricerca usando Visual Studio Code. I file di codice per l'app sono stati forniti in un repository GitHub.
 
-> **Suggerimento**: Se è già stato clonato il repository **mslearn-knowledge-mining**, aprirlo in Visual Studio Code. In caso contrario, eseguire i passaggi seguenti per clonarlo nell'ambiente di sviluppo.
+> **Suggerimento**: se è già stato clonato il repository **mslearn-knowledge-mining**, aprirlo in Visual Studio Code. In caso contrario, eseguire i passaggi seguenti per clonarlo nell'ambiente di sviluppo.
 
 1. Avviare Visual Studio Code.
 1. Aprire il riquadro comandi (MAIUSC+CTRL+P) ed eseguire un comando **Git: Clone** per clonare il repository `https://github.com/MicrosoftLearning/mslearn-knowledge-mining` in una cartella locale. Non è importante usare una cartella specifica.
@@ -143,7 +143,7 @@ Una volta caricati i documenti, è possibile creare una soluzione di ricerca ind
     | autore_metadati | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
     | locations | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
     | keyphrase | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
-    | lingua | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | | |
+    | lingua | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; | | | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10004; |
 
 10. Controllare le selezioni, assicurandosi in particolare che per ogni campo siano selezionate le opzioni **Recuperabile**, **Filtrabile**, **Ordinabile**, **Con facet** e **Ricercabile** corrette, perché può essere difficile modificarle in un secondo momento. Procedere quindi al passaggio successivo: *Crea un indicizzatore*.
 11. Modificare il **Nome indicizzatore** in **margies-indexer**.
