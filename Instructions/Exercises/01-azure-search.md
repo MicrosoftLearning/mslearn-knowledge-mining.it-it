@@ -461,6 +461,13 @@ L'app Web include già il codice per elaborare ed eseguire il rendering dei risu
     - **Deserto di Mojave**, si noti che questo termine viene identificato come *posizione* in alcuni documenti.
 10. Chiudere la scheda del browser contenente il sito Web di Margie's Travel e tornare a Visual Studio Code. Quindi, nel terminale Python per la cartella **margies-travel** in cui è in esecuzione l'applicazione dotnet o flask, immettere CTRL+C per arrestare l'app.
 
+## Eliminare le risorse dell'esercizio
+
+Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie. Eliminare le risorse di Azure:
+
+1. Nel portale di Azure, selezionare **Gruppi di risorse**.
+1. Selezionare il gruppo di risorse non necessario, quindi selezionare **Elimina gruppo di risorse**.
+
 ## Ulteriori informazioni
 
 Per altre informazioni su Azure AI Search, vedere la [documentazione di Azure AI Search](https://docs.microsoft.com/azure/search/search-what-is-azure-search).

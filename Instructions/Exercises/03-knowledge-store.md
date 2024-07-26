@@ -16,9 +16,9 @@ In questo esercizio si implementerà un archivio conoscenze per *Margie's Travel
 
 ## Prepararsi allo sviluppo di un'app in Visual Studio Code
 
-Si svilupperà l'app ricerca usando Visual Studio Code. I file di codice per l'app sono stati forniti in un repository GitHub.
+Si svilupperà l'app di ricerca usando Visual Studio Code. I file di codice per l'app sono stati forniti in un repository GitHub.
 
-> **Suggerimento**: Se è già stato clonato il repository **mslearn-knowledge-mining**, aprirlo in Visual Studio Code. In caso contrario, eseguire i passaggi seguenti per clonarlo nell'ambiente di sviluppo.
+> **Suggerimento**: se è già stato clonato il repository **mslearn-knowledge-mining**, aprirlo in Visual Studio Code. In caso contrario, eseguire i passaggi seguenti per clonarlo nell'ambiente di sviluppo.
 
 1. Avviare Visual Studio Code.
 1. Aprire il riquadro comandi (MAIUSC+CTRL+P) ed eseguire un comando **Git: Clone** per clonare il repository `https://github.com/MicrosoftLearning/mslearn-knowledge-mining` in una cartella locale. Non è importante usare una cartella specifica.
@@ -29,7 +29,7 @@ Si svilupperà l'app ricerca usando Visual Studio Code. I file di codice per l'a
 
 ## Creazione di risorse Azure
 
-> **Nota**: Se in precedenza è stato completato l'esercizio **[Creare una soluzione di Ricerca di intelligenza artificiale di Azure](01-azure-search.md)** e le risorse di Azure sono ancora disponibili nella sottoscrizione, è possibile ignorare questa sezione e iniziare dalla sezione **Creare una soluzione di ricerca**. In caso contrario, seguire la procedura seguente per effettuare il provisioning delle risorse di Azure necessarie.
+> **Nota**: Se in precedenza è stato completato l'esercizio **[Creare una soluzione di Azure AI Search](01-azure-search.md)** e le risorse di Azure sono ancora disponibili nella sottoscrizione, è possibile ignorare questa sezione e iniziare dalla sezione **Creare una soluzione di ricerca**. In caso contrario, seguire la procedura seguente per effettuare il provisioning delle risorse di Azure necessarie.
 
 1. In un Web browser aprire il portale di Azure all'indirizzo `https://portal.azure.com` ed eseguire l'accesso usando l'account Microsoft associato alla sottoscrizione di Azure.
 2. Visualizzare i **Gruppi di risorse** nella sottoscrizione.
@@ -70,7 +70,7 @@ Si svilupperà l'app ricerca usando Visual Studio Code. I file di codice per l'a
     - Chiave amministratore del servizio di ricerca
     - Chiave di query del servizio di ricerca
 
-14. Nel portale di Azure aggiornare il gruppo di risorse e verificare che contenga l'account di archiviazione di Azure, la risorsa di Servizi di intelligenza artificiale di Azure e la risorsa di Ricerca di intelligenza artificiale di Azure.
+14. Nel portale di Azure aggiornare il gruppo di risorse e verificare che contenga l'account di Archiviazione di Azure, la risorsa di Servizi di Azure AI e la risorsa di Azure AI Search.
 
 ## Creare una soluzione di ricerca
 
@@ -122,10 +122,10 @@ Si userà l'interfaccia REST per inviare definizioni JSON per i componenti di Ri
 
 Dopo avere preparato gli oggetti JSON che definiscono i componenti della soluzione di ricerca, è possibile inviare i documenti JSON all'interfaccia REST per crearli.
 
-1. Nella cartella **create-search** aprire **create-search.cmd**. Questo script batch usa l'utilità cURL per inviare le definizioni JSON all'interfaccia REST per la risorsa di Ricerca di intelligenza artificiale di Azure.
-2. Sostituire le variabili segnaposto **YOUR_SEARCH_URL** e **YOUR_ADMIN_KEY** con l'**URL** e una delle **chiavi amministratore** della risorsa di Ricerca di intelligenza artificiale di Azure.
+1. Nella cartella **create-search** aprire **create-search.cmd**. Questo script batch usa l'utilità cURL per inviare le definizioni JSON all'interfaccia REST per la risorsa di Azure AI Search.
+2. Sostituire le variabili segnaposto **YOUR_SEARCH_URL** e **YOUR_ADMIN_KEY** con l'**URL** e una delle **chiavi amministratore** della risorsa di Azure AI Search.
 
-    *È possibile trovare questi valori nelle pagine **Panoramica** e **Chiavi** per la risorsa di Ricerca di intelligenza artificiale di Azure nel portale di Azure.*
+    *È possibile trovare questi valori nelle pagine **Panoramica** e **Chiavi** per la risorsa di Azure AI Search nel portale di Azure.*
 
 3. Salvare il file batch aggiornato.
 4. Fare clic con il pulsante destro del mouse sulla cartella **create-search** e scegliere **Apri nel terminale integrato**.
@@ -135,7 +135,7 @@ Dopo avere preparato gli oggetti JSON che definiscono i componenti della soluzio
     ./create-search
     ```
 
-6. Al termine dello script, nella pagina della risorsa di Ricerca di intelligenza artificiale di Azure nel portale di Azure selezionare la pagina **Indicizzatori** e attendere il completamento del processo di indicizzazione.
+6. Al termine dello script, nella pagina della risorsa di Azure AI Search nel portale di Azure selezionare la pagina **Indicizzatori** e attendere il completamento del processo di indicizzazione.
 
     *È possibile selezionare **Aggiorna** per tenere traccia dello stato di avanzamento dell'operazione di indicizzazione. Il completamento può richiedere circa un minuto.*
 
@@ -215,6 +215,13 @@ Le proiezioni di *tabelle* definite nel set di competenze formano uno schema rel
     - **Locations** (contiene una riga per ogni singola località con il valore di **document_id** per il documento in cui è presente la località).
 
 La possibilità di creare proiezioni di *tabelle* consente di compilare soluzioni analitiche e di creazione di report per l'esecuzione di query sullo schema relazionale, ad esempio usando Microsoft Power BI. Le colonne chiave generate automaticamente possono essere usate per unire le tabelle nelle query, ad esempio per restituire tutte le località indicate in un documento specifico.
+
+## Eliminare le risorse dell'esercizio
+
+Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie. Eliminare le risorse di Azure:
+
+1. Nel portale di Azure, selezionare **Gruppi di risorse**.
+1. Selezionare il gruppo di risorse non necessario, quindi selezionare **Elimina gruppo di risorse**.
 
 ## Ulteriori informazioni
 
