@@ -39,7 +39,7 @@ La soluzione che verrà creata per Margie's Travel richiede le risorse seguenti 
 
 Se non è già disponibile nella sottoscrizione, sarà necessario effettuare il provisioning di una risorsa di **Servizi di Azure AI**. La soluzione di ricerca userà questa funzionalità per arricchire i dati nell'archivio dati con informazioni dettagliate generate dall'intelligenza artificiale.
 
-1. Tornare alla home page del portale di Azure e selezionare il pulsante **&#65291;Crea una risorsa**, cercare *Servizi di Azure AI* e creare una risorsa di **Servizi di Azure AI** con le impostazioni seguenti:
+1. Tornare alla home page del portale di Azure e selezionare il pulsante **&#65291;Crea una risorsa**, cercare *Servizi di Azure AI* e creare un **account multiservizio di Servizi di Azure AI** con le impostazioni seguenti:
     - **Sottoscrizione**: *la sottoscrizione di Azure usata*
     - **Gruppo di risorse**: *Lo stesso gruppo di risorse della risorsa di Azure AI Search*
     - **Area**: *La stessa posizione della risorsa di Azure AI Search*
@@ -95,7 +95,7 @@ Ora che sono disponibili le risorse necessarie, è possibile caricare alcuni doc
 5. Immettere il comando seguente per eseguire il file batch. Viene creato un contenitore BLOB nell'account di archiviazione e vengono caricati i documenti nella cartella **data**.
 
     ```powershell
-    UploadDocs
+    .\UploadDocs.cmd
     ```
 
 ## Indicizzare i documenti
@@ -153,7 +153,7 @@ Una volta caricati i documenti, è possibile creare una soluzione di ricerca ind
     1. Estrae il contenuto e i campi dei metadati del documento dall'origine dati.
     2. Esegue il set di competenze cognitive per generare campi arricchiti aggiuntivi.
     3. Esegue il mapping all'indice dei campi estratti.
-15. Nella metà inferiore della pagina **Panoramica** della risorsa di Azure AI Search, visualizzare la scheda **Indicizzatori**, che dovrebbe mostrare l'indicizzatore **margies-indexer** appena creato. Attendere alcuni minuti e fare clic su **&orarr; Aggiorna** finché lo **Stato** non indica l'esito positivo.
+15. Sul lato sinistro, visualizzare la pagina **Indicizzatori**, che dovrebbe mostrare **margies-indexer** appena creato. Attendere alcuni minuti e fare clic su **&orarr; Aggiorna** finché lo **Stato** non indica l'esito positivo.
 
 ## Eseguire ricerche nell'indice
 
