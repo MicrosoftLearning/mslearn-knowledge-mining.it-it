@@ -54,6 +54,7 @@ A questo punto si creerà un modello di regressione ed eseguirà il training usa
 
     ![Screenshot che mostra l'aspetto positivo della pipeline e il pulsante Invia evidenziato.](../media/06-media/submit-pipeline.png)
 1. Selezionare **Informazioni di base** nel riquadro **Configura processo della pipeline**.
+   > Nota: se il riquadro **Configura il processo della pipeline** è stato nascosto in precedenza, è possibile aprirlo di nuovo selezionando **Configura e invia**.
 1. Selezionare **Crea nuovo** sotto il nome dell'esperimento.
 1. In **Nuovo nome esperiment** immettere **linear-regression-training**.
 1. Selezionare **Rivedi e invia** e quindi **Invia**.
