@@ -127,8 +127,8 @@ Questo esercizio usa 210 file di testo che contengono trame di film. Il nome dei
 
 1. In **Nome** immettere **movie-genre-classifier**.
 1. In **Lingua principale testo** selezionare **Inglese (Stati Uniti)**.
-1. In **Descrizione** immettere **A model that can identify a movie genre from the summary**.
 1. Selezionare **Sì, abilita il set di dati multilingue**.
+1. In **Descrizione** immettere **A model that can identify a movie genre from the summary**.
 1. Selezionare **Avanti**.
 
     ![Screenshot che mostra la selezione del contenitore con i dati di esempio.](../media/04-media/choose-container.png)
@@ -485,7 +485,7 @@ Ogni documento nell'indice deve avere un nuovo campo `textclass` in cui è possi
 
 Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie.
 
-### Eliminare le risorse dell'esercizio
+### Eliminazione
 
 1. Nel portale di Azure passare alla home page e selezionare **Gruppi di risorse**.
 1. Selezionare i gruppi di risorse non necessari e quindi selezionare **Elimina gruppo di risorse**.

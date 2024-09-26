@@ -190,7 +190,7 @@ Per questo hotel sono state trovate corrispondenze per il termine lake nel campo
 
     Il punteggio di ricerca è aumentato da **0,9433406** a **3,5707965**. Tuttavia, tutti gli altri hotel hanno punteggi calcolati superiori. Questo hotel è ora l'ultimo nei risultati.
 
-## Eliminare le risorse dell'esercizio
+## Eliminazione
 
 Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie.
 

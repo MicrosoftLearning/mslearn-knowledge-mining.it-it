@@ -162,7 +162,7 @@ Esplorare il codice in `ExponentialBackoffAsync` per capire come viene implement
 
 ![Screenshot che mostra l'indice di ricerca con 100.000 documenti.](../media/07-media/check-search-service-index.png)
 
-### Eliminare le risorse dell'esercizio
+### Eliminazione
 
 Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie. Iniziare con il codice clonato nel computer. Eliminare quindi le risorse di Azure.
 

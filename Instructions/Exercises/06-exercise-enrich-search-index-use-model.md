@@ -176,9 +176,9 @@ Il cluster di inferenza dovrebbe ora essere pronto per l'uso. È stato modificat
 1. Selezionare **Distribuisci**, e quindi **endpoint in tempo reale**.
 
     ![Screenshot del riquadro Seleziona endpoint.](../media/06-media/04-select-endpoint.png)
-1. In **Nome**, immettere un nome univoco, ad esempio **car-evaluation-endpoint-1440637584**.
+1. Per **Nome dell'endpoint**, immettere un nome univoco, ad esempio, **car-evaluation-endpoint-1440637584**.
 1. Per **Tipo di calcolo** selezionare **Gestito**.
-1. Per **Tipo di autenticazione** selezionare **Autenticazione**basata su chiave.
+1. Per **Tipo di autenticazione**, selezionare **Basata su chiave**.
 1. Selezionare **Avanti** e quindi **Avanti**.
 1. Selezionare di nuovo **Avanti**.
 1. Nel campo **Selezionare uno script di assegnazione dei punteggi per l'inferenza** passare al file aggiornato `score.py` e selezionarlo.
@@ -462,7 +462,7 @@ Si sostituiranno ora i nomi delle persone che si arricchiscono con il set di com
 
 ### Aggiornare i mapping dei campi di output
 
-1. Nel riquadro **Panoramica** selezionare **Indicizzatori** e quindi selezionare **azureblob-indexer**.
+1. Tornare al riquadro **Panoramica** del servizio di ricerca e selezionare **Indicizzatori**, quindi selezionare **azureblob-indexer**.
 1. Selezionare la scheda **Definizione indicizzatore (JSON)**, quindi modificare il valore **outputFieldMappings** in:
 
     ```json
@@ -488,7 +488,7 @@ Il set di competenze aggiornato aggiungerà ora un valore stimato al documento d
     ![Screenshot che mostra il campo previsto relativo al prezzo dell'auto aggiunto ai risultati della ricerca.](../media/06-media/test-results-search-explorer.png)
 Verrà visualizzato il campo popolato `predicted_price`.
 
-## Eliminare le risorse dell'esercizio
+## Eliminazione
 
 Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie. Eliminare le risorse di Azure:
 

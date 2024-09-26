@@ -141,22 +141,21 @@ Per implementare la funzionalità di conteggio delle parole come competenza pers
 > **Nota**: in questo esercizio si creerà un semplice funzione di Node.JS usando le funzionalità di modifica del codice nel portale di Azure. In una soluzione per la fase di produzione si usa in genere un ambiente di sviluppo come Visual Studio Code per creare un'app per le funzioni nel linguaggio preferito (ad esempio C#, Python, Node.JS o Java) e pubblicarla in Azure durante un processo DevOps.
 
 1. Nella pagina **Home** del portale di Azure creare una nuova risorsa **App per le funzioni** con le impostazioni seguenti:
+    - **Piano di hosting**: a consumo
     - **Sottoscrizione**: *Sottoscrizione in uso*
     - **Gruppo di risorse**: *lo stesso gruppo di risorse della risorsa di Azure AI Search*
     - **Nome dell'app per le funzioni**: *un nome univoco*
-    - **Pubblica**: Codice
     - **Stack di runtime**: Node.js
     - **Versione**: 18 LTS
     - **Area**: *la stessa area della risorsa di Azure AI Search*
+    - **Sistema operativo**: Windows
 
 2. Attendere il completamento della distribuzione e quindi passare alla risorsa App per le funzioni distribuita.
-3. Nella pagina **Panoramica** selezionare l'opzione **Crea nel portale di Azure** per creare una nuova funzione con le impostazioni seguenti:
-    - **Configurare un ambiente di sviluppo**
-        - **Ambiente di sviluppo**: Sviluppare nel portale
+3. Nella parte inferiore della pagina **Panoramica**, selezionare **Crea funzione** per creare una nuova funzione con le impostazioni seguenti:
     - **Selezionare un modello**
-        - **Modello**: Trigger HTTP
+        - **Modello**: Trigger HTTP    
     - **Dettagli modello**:
-        - **Nuova funzione**: wordcount
+        - **Nome funzione**: wordcount
         - **Livello di autorizzazione**: Funzione
 4. Attendere il completamento della creazione della funzione *wordcount*. Nella pagina della funzione selezionare quindi la scheda **Codice e test**.
 5. Sostituire il codice predefinito della funzione con il codice seguente:
@@ -372,7 +371,7 @@ Ora è possibile eseguire ricerche nell'indice disponibile.
 
     Questa query recupera i campi **url** e **top_words** per tutti i documenti che menzionano *Las Vegas*.
 
-## Eliminare le risorse dell'esercizio
+## Eliminazione
 
 Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie. Eliminare le risorse di Azure:
 

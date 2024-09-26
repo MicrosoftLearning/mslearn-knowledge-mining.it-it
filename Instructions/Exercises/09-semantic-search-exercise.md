@@ -13,7 +13,7 @@ In questo esercizio si aggiungerà a un indice un classificatore semantico e lo 
 
 1. Apri il portale di Azure e esegui l’accesso.
 1. Seleziona **Tutte le risorse** e seleziona il servizio di ricerca.
-1. Nel riquadro di spostamento, selezionare **Classificatore semantico (anteprima)**.
+1. Nel riquadro di spostamento, selezionare **Classificatore semantico**.
 1. In **Disponibilità**, nell'opzione **Gratuito** selezionare **Seleziona piano**.
 
 ![Screenshot della finestra di dialogo del classificatore semantico.](../media/semantic-search/semanticsearch.png)
