@@ -74,3 +74,7 @@ Verrà visualizzato un codice di stato di tipo **200** per indicare che la richi
 1. Selezionare la scheda **Corpo** per visualizzare la risposta e visualizzare i risultati.
 
 Verrà visualizzato un codice di stato di tipo **200** per una richiesta con esito positivo.
+
+### Eliminazione
+
+Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie. Iniziare con il codice clonato nel computer. Eliminare quindi le risorse di Azure.

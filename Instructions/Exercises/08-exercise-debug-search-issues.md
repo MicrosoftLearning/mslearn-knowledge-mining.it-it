@@ -126,5 +126,6 @@ L'indicizzatore ora inizierà a inserire 50 documenti. Se tuttavia si controlla 
 
     ![Screenshot che mostra che tutti i problemi risolti.](../media/08-media/warnings-fixed-indexer.png)
 
-> [!TIP]
-> Ora che l'esercizio è stato completato, se non è più necessario esplorare i servizi di Azure AI Search, eliminare le risorse di Azure create durante l'esercizio. Il modo più semplice consiste nell'eliminare il gruppo di risorse **acs-cognitive-search-exercise**.
+### Eliminazione
+
+ Ora che l'esercizio è stato completato, se non è più necessario esplorare i servizi di Azure AI Search, eliminare le risorse di Azure create durante l'esercizio. Il modo più semplice consiste nell'eliminare il gruppo di risorse **acs-cognitive-search-exercise**.

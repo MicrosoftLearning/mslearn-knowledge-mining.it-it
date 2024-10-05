@@ -216,7 +216,7 @@ Le proiezioni di *tabelle* definite nel set di competenze formano uno schema rel
 
 La possibilità di creare proiezioni di *tabelle* consente di compilare soluzioni analitiche e di creazione di report per l'esecuzione di query sullo schema relazionale, ad esempio usando Microsoft Power BI. Le colonne chiave generate automaticamente possono essere usate per unire le tabelle nelle query, ad esempio per restituire tutte le località indicate in un documento specifico.
 
-## Eliminare le risorse dell'esercizio
+## Eliminazione
 
 Dopo aver completato l'esercizio, eliminare tutte le risorse non più necessarie. Eliminare le risorse di Azure:
 
