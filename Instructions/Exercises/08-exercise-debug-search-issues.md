@@ -15,7 +15,7 @@ In questo esercizio si creerà una soluzione Azure AI Search, si importeranno al
 
 Prima di iniziare a usare una sessione di debug, è necessario creare un servizio di Ricerca cognitiva di Azure.
 
-1. [Distribuire risorse in ](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fazure-search-knowledge-mining%2Fmain%2Fazuredeploy.json): selezionare questo collegamento per distribuire tutte le risorse necessarie nel portale di Azure.
+1. [Distribuire risorse in ](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2Fmslearn-knowledge-mining%2Fmain%2FLabfiles%2F08-debug-search%2Fazuredeploy.json): selezionare questo collegamento per distribuire tutte le risorse necessarie nel portale di Azure.
 
     ![Screenshot del modello di distribuzione ARM con i campi immessi.](../media/08-media/arm-template-deployment.png)
 
