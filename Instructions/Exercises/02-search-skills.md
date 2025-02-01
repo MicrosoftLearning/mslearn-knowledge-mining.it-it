@@ -157,6 +157,9 @@ Per implementare la funzionalità di conteggio delle parole come competenza pers
     - **Dettagli modello**:
         - **Nome funzione**: wordcount
         - **Livello di autorizzazione**: Funzione
+
+    > **Nota**: se si riceve un errore di creazione della funzione, aggiornare la pagina, dopodiché la risorsa dovrebbe essere creata come previsto.
+
 4. Attendere il completamento della creazione della funzione *wordcount*. Nella pagina della funzione selezionare quindi la scheda **Codice e test**.
 5. Sostituire il codice predefinito della funzione con il codice seguente:
 

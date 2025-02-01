@@ -315,7 +315,7 @@ Anche se è possibile usare il portale per creare e modificare soluzioni di rice
 
     Per tutti gli altri campi di metadati e contenuto nel documento di origine viene eseguito il mapping implicito a campi con lo stesso nome nell'indice.
 
-3. Esaminare la sezione **ouputFieldMappings** che esegue il mapping degli output delle competenze nel set di competenze ai campi dell'indice. La maggior parte di queste opzioni riflette le scelte effettuate nell'interfaccia utente, ma è stato aggiunto il mapping seguente dal valore **sentimentLabel** estratto dalla competenza sentiment al campo **sentiment** aggiunto all'indice:
+3. Esaminare la sezione **outputFieldMappings** che esegue il mapping degli output delle competenze nel set di competenze ai campi dell'indice. La maggior parte di queste opzioni riflette le scelte effettuate nell'interfaccia utente, ma è stato aggiunto il mapping seguente dal valore **sentimentLabel** estratto dalla competenza sentiment al campo **sentiment** aggiunto all'indice:
 
     ```json
     {
