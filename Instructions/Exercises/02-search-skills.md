@@ -146,9 +146,11 @@ Per implementare la funzionalità di conteggio delle parole come competenza pers
     - **Gruppo di risorse**: *lo stesso gruppo di risorse della risorsa di Azure AI Search*
     - **Nome dell'app per le funzioni**: *un nome univoco*
     - **Stack di runtime**: Node.js
-    - **Versione**: 18 LTS
+    - **Versione**: 20 LTS
     - **Area**: *la stessa area della risorsa di Azure AI Search*
     - **Sistema operativo**: Windows
+
+>**Nota**: se l'area geografica in cui è stata creata la risorsa di Azure AI Search non dispone della quota per la distribuzione della risorsa dell'app per le funzioni, è possibile scegliere un'area diversa in cui la sottoscrizione ha la quota disponibile per la distribuzione.
 
 2. Attendere il completamento della distribuzione e quindi passare alla risorsa App per le funzioni distribuita.
 3. Nella parte inferiore della pagina **Panoramica**, selezionare **Crea funzione** per creare una nuova funzione con le impostazioni seguenti:
