@@ -83,29 +83,29 @@ Il portale di Azure presuppone che sia necessario tradurre il primo campo del do
 
 1. Nella parte superiore della pagina selezionare il servizio di ricerca, il collegamento **advanced-search-service-12345 |Indexes**.
 1. Selezionare **Set di competenze** in Gestione della ricerca nel riquadro sinistro, quindi selezionare **hotels-sample-skillset**.
-1. Modificare il documento JSON, cambiare la riga 11 in:
+1. Modificare il documento JSON, modificare la riga 9 in:
 
     ```json
     "context": "/document/Description",
     ```
 
-1. Cambiare il valore predefinito di language in English nella riga 12:
+1. Cambiare il valore predefinito di language in English nella riga 11:
 
     ```json
     "defaultFromLanguageCode": "en",
     ```
 
-1. Cambiare il campo di origine nella riga 18 in:
+1. Modificare il campo di origine nella riga 15 in:
 
     ```json
-    "source": "/document/Description"
+    "source": "/document/Description",
     ```
 
 1. Seleziona **Salva**.
 1. Nella parte superiore della pagina selezionare il servizio di ricerca, il collegamento **advanced-search-service-12345 | Skillsets**.
 1. Nel riquadro **Panoramica** selezionare **Indicizzatori** e quindi **hotels-sample-indexer**.
-1. Selezionare **Definizione indicizzatore (JSON)**.
-1. Cambiare il nome del campo di origine nella riga 21 in:
+1. Selezionare **Modifica JSON**.
+1. Modificare il nome del campo di origine nella riga 20 in:
 
     ```json
     "sourceFieldName": "/document/Description/Description_pt",
