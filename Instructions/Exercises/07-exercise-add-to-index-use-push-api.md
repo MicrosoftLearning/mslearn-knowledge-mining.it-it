@@ -15,7 +15,7 @@ In questo esercizio si clonerà una soluzione C# esistente e la si eseguirà per
 
 Per risparmiare tempo, selezionare questo modello di Azure Resource Manager per creare le risorse che saranno necessarie più avanti nell'esercizio:
 
-1. [Distribuire risorse in Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2Fmslearn-knowledge-mining%2Fmain%2FLabfiles%2F07-exercise-add-to-index-use-push-api%20lab-files%2Fazuredeploy.json): selezionare questo collegamento per creare risorse di Azure per intelligenza artificiale.
+1. [Distribuire risorse in Azure](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2Fmslearn-knowledge-mining%2Fmain%2FLabfiles%2F07-exercise-add-to-index-use-push-api%2Fazuredeploy.json): selezionare questo collegamento per creare risorse di Azure per intelligenza artificiale.
     ![Screenshot delle opzioni visualizzate durante la distribuzione delle risorse in Azure.](../media/07-media/deploy-azure-resources.png)
 1. In **Gruppo di risorse** selezionare **Crea nuovo** e assegnare il nome **cog-search-language-exe**.
 1. In **Area** selezionare un'[area supportata](/azure/ai-services/language-service/custom-text-classification/service-limits#regional-availability) nelle vicinanze.
